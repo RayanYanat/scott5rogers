@@ -78,17 +78,22 @@ document.addEventListener('DOMContentLoaded', () => {
   // Gallery filtering
   const filterBtns = document.querySelectorAll('.filter-btn');
   const tiles = document.querySelectorAll('.gallery-tile');
+  const applyFilter = (filter) => {
+    tiles.forEach(tile => {
+      const show = filter === 'all' || tile.dataset.category === filter;
+      tile.classList.toggle('is-hidden', !show);
+    });
+  };
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       filterBtns.forEach(b => b.classList.remove('is-active'));
       btn.classList.add('is-active');
-      const filter = btn.dataset.filter;
-      tiles.forEach(tile => {
-        const show = filter === 'all' || tile.dataset.category === filter;
-        tile.classList.toggle('is-hidden', !show);
-      });
+      applyFilter(btn.dataset.filter);
     });
   });
+  // Apply the active filter on load so hidden tiles never download their images
+  const activeBtn = document.querySelector('.filter-btn.is-active');
+  if (activeBtn) applyFilter(activeBtn.dataset.filter);
 
   // Lightbox
   const lightbox = document.getElementById('lightbox');

@@ -22,7 +22,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=4">
+<link rel="preload" as="image" href="assets/img/contact/001.webp" type="image/webp" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/style.css?v=6">
 </head>
 <body>
 
@@ -99,7 +100,7 @@
         <div class="hero-portrait">
           <picture>
             <source srcset="assets/img/contact/001.webp" type="image/webp">
-            <img src="assets/img/contact/001.jpg" width="900" height="972" alt="Scott Rogers BEM pitchside during an England Amputee Football Association session" fetchpriority="high">
+            <img decoding="async" src="assets/img/contact/001.jpg" width="900" height="972" alt="Scott Rogers BEM pitchside during an England Amputee Football Association session" fetchpriority="high">
           </picture>
           <div class="hero-portrait-badge"><span>BEM</span> British Empire Medal</div>
         </div>
@@ -147,7 +148,10 @@
 
       <div class="about-portrait" data-reveal>
         <div class="portrait-frame">
-          <img class="portrait-art" src="assets/img/home/005.jpg" width="1600" height="1600" alt="Scott Rogers watching an England Amputee Football Association match" loading="lazy">
+          <picture>
+            <source srcset="assets/img/home/005.webp" type="image/webp">
+            <img class="portrait-art" src="assets/img/home/005.jpg" width="1600" height="1600" alt="Scott Rogers watching an England Amputee Football Association match" loading="lazy" decoding="async">
+          </picture>
           <div class="portrait-badge">
             <span>BEM</span>
           </div>
@@ -191,7 +195,7 @@
         <li class="timeline-item" data-reveal>
           <div class="timeline-marker"><span>2021</span></div>
           <div class="timeline-card">
-            <picture><source srcset="assets/img/training-camps-2021/002.webp" type="image/webp"><img class="timeline-thumb" src="assets/img/training-camps-2021/002.jpg" width="900" height="600" alt="England squad training session, 2021" loading="lazy"></picture>
+            <picture><source srcset="assets/img/training-camps-2021/002.webp" type="image/webp"><img decoding="async" class="timeline-thumb" src="assets/img/training-camps-2021/002.jpg" width="900" height="600" alt="England squad training session, 2021" loading="lazy"></picture>
             <div class="timeline-content">
               <h3>Training Camps 2021</h3>
               <p>A season of intensive preparation cycles with the England squad, building fitness, tactics and squad cohesion ahead of tournament football.</p>
@@ -201,7 +205,7 @@
         <li class="timeline-item" data-reveal>
           <div class="timeline-marker"><span>2021</span></div>
           <div class="timeline-card">
-            <picture><source srcset="assets/img/home/006.webp" type="image/webp"><img class="timeline-thumb" src="assets/img/home/006.jpg" width="1563" height="967" alt="England squad line-up at UEFA Euro 2021 in Krak&oacute;w" loading="lazy"></picture>
+            <picture><source srcset="assets/img/home/006.webp" type="image/webp"><img decoding="async" class="timeline-thumb" src="assets/img/home/006.jpg" width="1563" height="967" alt="England squad line-up at UEFA Euro 2021 in Krak&oacute;w" loading="lazy"></picture>
             <div class="timeline-content">
               <h3>UEFA Euro 2021 &mdash; Poland</h3>
               <p>Coached England at the European Championships, based in Krak&oacute;w, competing against the continent's leading amputee football nations.</p>
@@ -211,7 +215,7 @@
         <li class="timeline-item" data-reveal>
           <div class="timeline-marker"><span>2022</span></div>
           <div class="timeline-card">
-            <picture><source srcset="assets/img/training-camp-january-2022/004.webp" type="image/webp"><img class="timeline-thumb" src="assets/img/training-camp-january-2022/004.jpg" width="480" height="320" alt="Player in training during the January 2022 camp" loading="lazy"></picture>
+            <picture><source srcset="assets/img/training-camp-january-2022/004.webp" type="image/webp"><img decoding="async" class="timeline-thumb" src="assets/img/training-camp-january-2022/004.jpg" width="480" height="320" alt="Player in training during the January 2022 camp" loading="lazy"></picture>
             <div class="timeline-content">
               <h3>Training Camp &mdash; January 2022</h3>
               <p>A new-year training camp focused on technical development and squad depth ahead of the season's fixtures.</p>
@@ -221,7 +225,7 @@
         <li class="timeline-item" data-reveal>
           <div class="timeline-marker"><span>2023</span></div>
           <div class="timeline-card">
-            <picture><source srcset="assets/img/nations-league-2023/003.webp" type="image/webp"><img class="timeline-thumb" src="assets/img/nations-league-2023/003.jpg" width="480" height="320" alt="Matchday moment from the 2023 Nations League campaign" loading="lazy"></picture>
+            <picture><source srcset="assets/img/nations-league-2023/003.webp" type="image/webp"><img decoding="async" class="timeline-thumb" src="assets/img/nations-league-2023/003.jpg" width="480" height="320" alt="Matchday moment from the 2023 Nations League campaign" loading="lazy"></picture>
             <div class="timeline-content">
               <h3>Nations League 2023</h3>
               <p>International fixtures and continued squad development through the 2023 Nations League campaign.</p>
@@ -231,7 +235,7 @@
         <li class="timeline-item" data-reveal>
           <div class="timeline-marker"><span>2024</span></div>
           <div class="timeline-card">
-            <picture><source srcset="assets/img/turkey-training-camp-24/002.webp" type="image/webp"><img class="timeline-thumb" src="assets/img/turkey-training-camp-24/002.jpg" width="900" height="675" alt="Coaching staff at the Turkey training camp, 2024" loading="lazy"></picture>
+            <picture><source srcset="assets/img/turkey-training-camp-24/002.webp" type="image/webp"><img decoding="async" class="timeline-thumb" src="assets/img/turkey-training-camp-24/002.jpg" width="900" height="675" alt="Coaching staff at the Turkey training camp, 2024" loading="lazy"></picture>
             <div class="timeline-content">
               <h3>Turkey Training Camp</h3>
               <p>A warm-weather training camp in Turkey, sharpening the squad's conditioning and tactical shape.</p>
@@ -241,7 +245,7 @@
         <li class="timeline-item" data-reveal>
           <div class="timeline-marker"><span>2024</span></div>
           <div class="timeline-card">
-            <picture><source srcset="assets/img/euros-24-france/006.webp" type="image/webp"><img class="timeline-thumb" src="assets/img/euros-24-france/006.jpg" width="480" height="320" alt="England squad huddle at UEFA Euro 2024 in France" loading="lazy"></picture>
+            <picture><source srcset="assets/img/euros-24-france/006.webp" type="image/webp"><img decoding="async" class="timeline-thumb" src="assets/img/euros-24-france/006.jpg" width="480" height="320" alt="England squad huddle at UEFA Euro 2024 in France" loading="lazy"></picture>
             <div class="timeline-content">
               <h3>UEFA Euro 2024 &mdash; France</h3>
               <p>Led technical coaching for England at the European Championships in France.</p>
@@ -262,7 +266,7 @@
       <div class="media-grid">
         <article class="media-card" data-reveal>
           <div class="media-card-photo">
-            <picture><source srcset="assets/img/this-morning-appearence/002.webp" type="image/webp"><img src="assets/img/this-morning-appearence/002.jpg" width="1000" height="462" alt="Scott Rogers appearing on ITV's This Morning to discuss England's amputee football squad" loading="lazy"></picture>
+            <picture><source srcset="assets/img/this-morning-appearence/002.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/002.jpg" width="1000" height="462" alt="Scott Rogers appearing on ITV's This Morning to discuss England's amputee football squad" loading="lazy"></picture>
           </div>
           <h3>This Morning &mdash; ITV</h3>
           <p>A national television appearance discussing England's amputee football programme and Scott's coaching journey.</p>
@@ -270,7 +274,7 @@
 
         <article class="media-card" data-reveal>
           <div class="media-card-photo">
-            <picture><source srcset="assets/img/tnt-appearences/003.webp" type="image/webp"><img src="assets/img/tnt-appearences/003.jpg" width="1000" height="666" alt="TNT Sports broadcast interview pitchside" loading="lazy"></picture>
+            <picture><source srcset="assets/img/tnt-appearences/003.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/003.jpg" width="1000" height="666" alt="TNT Sports broadcast interview pitchside" loading="lazy"></picture>
           </div>
           <h3>TNT Sports coverage</h3>
           <p>Broadcast appearances alongside major fixtures, including:</p>
@@ -292,8 +296,7 @@
       <p class="section-lead" data-reveal>A visual record of camps, championships and matchdays.</p>
 
       <div class="gallery-filters" data-reveal role="tablist" aria-label="Filter gallery by event">
-        <button class="filter-btn is-active" data-filter="all" type="button">All</button>
-        <button class="filter-btn" data-filter="training-2021" type="button">Training Camps 2021</button>
+        <button class="filter-btn is-active" data-filter="training-2021" type="button">Training Camps 2021</button>
         <button class="filter-btn" data-filter="euro-2021" type="button">Euro 2021 &middot; Poland</button>
         <button class="filter-btn" data-filter="jan-2022" type="button">Jan 2022 Camp</button>
         <button class="filter-btn" data-filter="nations-2023" type="button">Nations League 2023</button>
@@ -304,147 +307,344 @@
       </div>
 
       <div class="gallery-grid" id="galleryGrid">
-        <!-- Training Camps 2021 -->
         <figure class="gallery-tile" data-category="training-2021" data-reveal>
-          <picture><source srcset="assets/img/training-camps-2021/002.webp" type="image/webp"><img src="assets/img/training-camps-2021/002.jpg" width="900" height="600" alt="Training Camps 2021" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camps-2021/001.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/001.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
           <figcaption><span>Training Camps</span> 2021</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="training-2021" data-reveal>
-          <picture><source srcset="assets/img/training-camps-2021/008.webp" type="image/webp"><img src="assets/img/training-camps-2021/008.jpg" width="900" height="600" alt="Training Camps 2021" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camps-2021/003.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/003.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
           <figcaption><span>Training Camps</span> 2021</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="training-2021" data-reveal>
-          <picture><source srcset="assets/img/training-camps-2021/015.webp" type="image/webp"><img src="assets/img/training-camps-2021/015.jpg" width="900" height="600" alt="Training Camps 2021" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camps-2021/006.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/006.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
           <figcaption><span>Training Camps</span> 2021</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="training-2021" data-reveal>
-          <picture><source srcset="assets/img/training-camps-2021/022.webp" type="image/webp"><img src="assets/img/training-camps-2021/022.jpg" width="900" height="600" alt="Training Camps 2021" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camps-2021/008.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/008.jpg" width="900" height="600" alt="Training Camps 2021" loading="lazy"></picture>
           <figcaption><span>Training Camps</span> 2021</figcaption>
         </figure>
-
-        <!-- Euro 2021 Poland -->
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/011.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/011.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/013.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/013.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/016.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/016.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/018.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/018.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/021.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/021.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/023.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/023.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/026.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/026.jpg" width="1600" height="1066" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="training-2021" data-reveal>
+          <picture><source srcset="assets/img/training-camps-2021/028.webp" type="image/webp"><img decoding="async" src="assets/img/training-camps-2021/028.jpg" width="1528" height="1913" alt="Training Camps 2021" loading="lazy"></picture>
+          <figcaption><span>Training Camps</span> 2021</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="euro-2021" data-reveal>
-          <picture><source srcset="assets/img/euro-2021-poland/003.webp" type="image/webp"><img src="assets/img/euro-2021-poland/003.jpg" width="900" height="675" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euro-2021-poland/001.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/001.jpg" width="1600" height="1200" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="euro-2021" data-reveal>
-          <picture><source srcset="assets/img/euro-2021-poland/015.webp" type="image/webp"><img src="assets/img/euro-2021-poland/015.jpg" width="900" height="600" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euro-2021-poland/006.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/006.jpg" width="1600" height="1200" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="euro-2021" data-reveal>
-          <picture><source srcset="assets/img/euro-2021-poland/030.webp" type="image/webp"><img src="assets/img/euro-2021-poland/030.jpg" width="900" height="600" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euro-2021-poland/012.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/012.jpg" width="1600" height="1066" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="euro-2021" data-reveal>
-          <picture><source srcset="assets/img/euro-2021-poland/048.webp" type="image/webp"><img src="assets/img/euro-2021-poland/048.jpg" width="900" height="600" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euro-2021-poland/017.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/017.jpg" width="1600" height="1065" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
         </figure>
-
-        <!-- Training Camp January 2022 -->
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/022.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/022.jpg" width="1600" height="1066" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/027.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/027.jpg" width="1600" height="798" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/033.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/033.jpg" width="1600" height="1066" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/038.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/038.jpg" width="1600" height="1066" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/043.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/043.jpg" width="1600" height="1066" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/048.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/048.jpg" width="900" height="600" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/054.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/054.jpg" width="1440" height="1440" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2021" data-reveal>
+          <picture><source srcset="assets/img/euro-2021-poland/059.webp" type="image/webp"><img decoding="async" src="assets/img/euro-2021-poland/059.jpg" width="1440" height="1440" alt="UEFA Euro 2021, Poland" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2021 &middot; Poland</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="jan-2022" data-reveal>
-          <picture><source srcset="assets/img/training-camp-january-2022/002.webp" type="image/webp"><img src="assets/img/training-camp-january-2022/002.jpg" width="900" height="600" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camp-january-2022/001.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/001.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> January 2022</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="jan-2022" data-reveal>
-          <picture><source srcset="assets/img/training-camp-january-2022/010.webp" type="image/webp"><img src="assets/img/training-camp-january-2022/010.jpg" width="900" height="600" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camp-january-2022/004.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/004.jpg" width="480" height="320" alt="Training Camp, January 2022" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> January 2022</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="jan-2022" data-reveal>
-          <picture><source srcset="assets/img/training-camp-january-2022/018.webp" type="image/webp"><img src="assets/img/training-camp-january-2022/018.jpg" width="900" height="600" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camp-january-2022/006.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/006.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> January 2022</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="jan-2022" data-reveal>
-          <picture><source srcset="assets/img/training-camp-january-2022/026.webp" type="image/webp"><img src="assets/img/training-camp-january-2022/026.jpg" width="900" height="600" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <picture><source srcset="assets/img/training-camp-january-2022/009.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/009.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> January 2022</figcaption>
         </figure>
-
-        <!-- Nations League 2023 -->
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/012.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/012.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/014.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/014.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/017.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/017.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/019.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/019.jpg" width="1600" height="1067" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/022.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/022.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/025.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/025.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/027.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/027.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="jan-2022" data-reveal>
+          <picture><source srcset="assets/img/training-camp-january-2022/030.webp" type="image/webp"><img decoding="async" src="assets/img/training-camp-january-2022/030.jpg" width="1600" height="1066" alt="Training Camp, January 2022" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> January 2022</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="nations-2023" data-reveal>
-          <picture><source srcset="assets/img/nations-league-2023/002.webp" type="image/webp"><img src="assets/img/nations-league-2023/002.jpg" width="900" height="600" alt="Nations League 2023" loading="lazy"></picture>
+          <picture><source srcset="assets/img/nations-league-2023/001.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/001.jpg" width="1600" height="1066" alt="Nations League 2023" loading="lazy"></picture>
           <figcaption><span>Nations League</span> 2023</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="nations-2023" data-reveal>
-          <picture><source srcset="assets/img/nations-league-2023/008.webp" type="image/webp"><img src="assets/img/nations-league-2023/008.jpg" width="900" height="683" alt="Nations League 2023" loading="lazy"></picture>
+          <picture><source srcset="assets/img/nations-league-2023/003.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/003.jpg" width="480" height="320" alt="Nations League 2023" loading="lazy"></picture>
           <figcaption><span>Nations League</span> 2023</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="nations-2023" data-reveal>
-          <picture><source srcset="assets/img/nations-league-2023/014.webp" type="image/webp"><img src="assets/img/nations-league-2023/014.jpg" width="900" height="900" alt="Nations League 2023" loading="lazy"></picture>
+          <picture><source srcset="assets/img/nations-league-2023/005.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/005.jpg" width="1536" height="1536" alt="Nations League 2023" loading="lazy"></picture>
           <figcaption><span>Nations League</span> 2023</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="nations-2023" data-reveal>
-          <picture><source srcset="assets/img/nations-league-2023/020.webp" type="image/webp"><img src="assets/img/nations-league-2023/020.jpg" width="900" height="600" alt="Nations League 2023" loading="lazy"></picture>
+          <picture><source srcset="assets/img/nations-league-2023/007.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/007.jpg" width="1600" height="1600" alt="Nations League 2023" loading="lazy"></picture>
           <figcaption><span>Nations League</span> 2023</figcaption>
         </figure>
-
-        <!-- Turkey Training Camp 2024 -->
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/009.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/009.jpg" width="1492" height="2048" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/011.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/011.jpg" width="1600" height="1066" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/014.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/014.jpg" width="900" height="900" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/016.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/016.jpg" width="1024" height="1536" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/018.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/018.jpg" width="1440" height="1440" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/020.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/020.jpg" width="900" height="600" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/022.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/022.jpg" width="1600" height="1066" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="nations-2023" data-reveal>
+          <picture><source srcset="assets/img/nations-league-2023/024.webp" type="image/webp"><img decoding="async" src="assets/img/nations-league-2023/024.jpg" width="1284" height="1263" alt="Nations League 2023" loading="lazy"></picture>
+          <figcaption><span>Nations League</span> 2023</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="turkey-2024" data-reveal>
-          <picture><source srcset="assets/img/turkey-training-camp-24/001.webp" type="image/webp"><img src="assets/img/turkey-training-camp-24/001.jpg" width="900" height="675" alt="Turkey Training Camp 2024" loading="lazy"></picture>
+          <picture><source srcset="assets/img/turkey-training-camp-24/001.webp" type="image/webp"><img decoding="async" src="assets/img/turkey-training-camp-24/001.jpg" width="900" height="675" alt="Turkey Training Camp 2024" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> Turkey 2024</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="turkey-2024" data-reveal>
-          <picture><source srcset="assets/img/turkey-training-camp-24/002.webp" type="image/webp"><img src="assets/img/turkey-training-camp-24/002.jpg" width="900" height="675" alt="Turkey Training Camp 2024" loading="lazy"></picture>
+          <picture><source srcset="assets/img/turkey-training-camp-24/002.webp" type="image/webp"><img decoding="async" src="assets/img/turkey-training-camp-24/002.jpg" width="900" height="675" alt="Turkey Training Camp 2024" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> Turkey 2024</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="turkey-2024" data-reveal>
-          <picture><source srcset="assets/img/turkey-training-camp-24/004.webp" type="image/webp"><img src="assets/img/turkey-training-camp-24/004.jpg" width="900" height="675" alt="Turkey Training Camp 2024" loading="lazy"></picture>
+          <picture><source srcset="assets/img/turkey-training-camp-24/003.webp" type="image/webp"><img decoding="async" src="assets/img/turkey-training-camp-24/003.jpg" width="1600" height="1200" alt="Turkey Training Camp 2024" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> Turkey 2024</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="turkey-2024" data-reveal>
-          <picture><source srcset="assets/img/turkey-training-camp-24/006.webp" type="image/webp"><img src="assets/img/turkey-training-camp-24/006.jpg" width="900" height="600" alt="Turkey Training Camp 2024" loading="lazy"></picture>
+          <picture><source srcset="assets/img/turkey-training-camp-24/004.webp" type="image/webp"><img decoding="async" src="assets/img/turkey-training-camp-24/004.jpg" width="900" height="675" alt="Turkey Training Camp 2024" loading="lazy"></picture>
           <figcaption><span>Training Camp</span> Turkey 2024</figcaption>
         </figure>
-
-        <!-- Euro 2024 France -->
+        <figure class="gallery-tile" data-category="turkey-2024" data-reveal>
+          <picture><source srcset="assets/img/turkey-training-camp-24/005.webp" type="image/webp"><img decoding="async" src="assets/img/turkey-training-camp-24/005.jpg" width="1600" height="1200" alt="Turkey Training Camp 2024" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> Turkey 2024</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="turkey-2024" data-reveal>
+          <picture><source srcset="assets/img/turkey-training-camp-24/006.webp" type="image/webp"><img decoding="async" src="assets/img/turkey-training-camp-24/006.jpg" width="900" height="600" alt="Turkey Training Camp 2024" loading="lazy"></picture>
+          <figcaption><span>Training Camp</span> Turkey 2024</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="euro-2024" data-reveal>
-          <picture><source srcset="assets/img/euros-24-france/002.webp" type="image/webp"><img src="assets/img/euros-24-france/002.jpg" width="900" height="599" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euros-24-france/001.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/001.jpg" width="1600" height="1064" alt="UEFA Euro 2024, France" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="euro-2024" data-reveal>
-          <picture><source srcset="assets/img/euros-24-france/012.webp" type="image/webp"><img src="assets/img/euros-24-france/012.jpg" width="900" height="600" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euros-24-france/004.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/004.jpg" width="1600" height="1064" alt="UEFA Euro 2024, France" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="euro-2024" data-reveal>
-          <picture><source srcset="assets/img/euros-24-france/022.webp" type="image/webp"><img src="assets/img/euros-24-france/022.jpg" width="900" height="600" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euros-24-france/008.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/008.jpg" width="1600" height="1067" alt="UEFA Euro 2024, France" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="euro-2024" data-reveal>
-          <picture><source srcset="assets/img/euros-24-france/032.webp" type="image/webp"><img src="assets/img/euros-24-france/032.jpg" width="900" height="1349" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <picture><source srcset="assets/img/euros-24-france/011.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/011.jpg" width="1600" height="1066" alt="UEFA Euro 2024, France" loading="lazy"></picture>
           <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
         </figure>
-
-        <!-- This Morning -->
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/014.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/014.jpg" width="1600" height="1600" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/017.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/017.jpg" width="1600" height="1066" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/021.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/021.jpg" width="1600" height="1066" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/024.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/024.jpg" width="1600" height="1066" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/027.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/027.jpg" width="1600" height="1066" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/030.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/030.jpg" width="1440" height="1440" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/034.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/034.jpg" width="1600" height="1066" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="euro-2024" data-reveal>
+          <picture><source srcset="assets/img/euros-24-france/037.webp" type="image/webp"><img decoding="async" src="assets/img/euros-24-france/037.jpg" width="1365" height="2048" alt="UEFA Euro 2024, France" loading="lazy"></picture>
+          <figcaption><span>UEFA Euro</span> 2024 &middot; France</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="this-morning" data-reveal>
-          <picture><source srcset="assets/img/this-morning-appearence/002.webp" type="image/webp"><img src="assets/img/this-morning-appearence/002.jpg" width="1000" height="462" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <picture><source srcset="assets/img/this-morning-appearence/001.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/001.jpg" width="1600" height="740" alt="This Morning, ITV appearance" loading="lazy"></picture>
           <figcaption><span>This Morning</span> &middot; ITV</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="this-morning" data-reveal>
-          <picture><source srcset="assets/img/this-morning-appearence/004.webp" type="image/webp"><img src="assets/img/this-morning-appearence/004.jpg" width="900" height="675" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <picture><source srcset="assets/img/this-morning-appearence/002.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/002.jpg" width="1000" height="462" alt="This Morning, ITV appearance" loading="lazy"></picture>
           <figcaption><span>This Morning</span> &middot; ITV</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="this-morning" data-reveal>
-          <picture><source srcset="assets/img/this-morning-appearence/005.webp" type="image/webp"><img src="assets/img/this-morning-appearence/005.jpg" width="900" height="1200" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <picture><source srcset="assets/img/this-morning-appearence/003.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/003.jpg" width="1600" height="740" alt="This Morning, ITV appearance" loading="lazy"></picture>
           <figcaption><span>This Morning</span> &middot; ITV</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="this-morning" data-reveal>
-          <picture><source srcset="assets/img/this-morning-appearence/007.webp" type="image/webp"><img src="assets/img/this-morning-appearence/007.jpg" width="900" height="1200" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <picture><source srcset="assets/img/this-morning-appearence/004.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/004.jpg" width="900" height="675" alt="This Morning, ITV appearance" loading="lazy"></picture>
           <figcaption><span>This Morning</span> &middot; ITV</figcaption>
         </figure>
-
-        <!-- TNT Sports -->
+        <figure class="gallery-tile" data-category="this-morning" data-reveal>
+          <picture><source srcset="assets/img/this-morning-appearence/005.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/005.jpg" width="900" height="1200" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <figcaption><span>This Morning</span> &middot; ITV</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="this-morning" data-reveal>
+          <picture><source srcset="assets/img/this-morning-appearence/006.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/006.jpg" width="1600" height="923" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <figcaption><span>This Morning</span> &middot; ITV</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="this-morning" data-reveal>
+          <picture><source srcset="assets/img/this-morning-appearence/007.webp" type="image/webp"><img decoding="async" src="assets/img/this-morning-appearence/007.jpg" width="900" height="1200" alt="This Morning, ITV appearance" loading="lazy"></picture>
+          <figcaption><span>This Morning</span> &middot; ITV</figcaption>
+        </figure>
         <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
-          <picture><source srcset="assets/img/tnt-appearences/002.webp" type="image/webp"><img src="assets/img/tnt-appearences/002.jpg" width="900" height="600" alt="TNT Sports coverage" loading="lazy"></picture>
+          <picture><source srcset="assets/img/tnt-appearences/001.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/001.jpg" width="1478" height="1026" alt="TNT Sports coverage" loading="lazy"></picture>
           <figcaption><span>TNT Sports</span> Coverage</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
-          <picture><source srcset="assets/img/tnt-appearences/007.webp" type="image/webp"><img src="assets/img/tnt-appearences/007.jpg" width="900" height="600" alt="TNT Sports coverage" loading="lazy"></picture>
+          <picture><source srcset="assets/img/tnt-appearences/003.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/003.jpg" width="1000" height="666" alt="TNT Sports coverage" loading="lazy"></picture>
           <figcaption><span>TNT Sports</span> Coverage</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
-          <picture><source srcset="assets/img/tnt-appearences/012.webp" type="image/webp"><img src="assets/img/tnt-appearences/012.jpg" width="900" height="675" alt="TNT Sports coverage" loading="lazy"></picture>
+          <picture><source srcset="assets/img/tnt-appearences/005.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/005.jpg" width="1600" height="1066" alt="TNT Sports coverage" loading="lazy"></picture>
           <figcaption><span>TNT Sports</span> Coverage</figcaption>
         </figure>
         <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
-          <picture><source srcset="assets/img/tnt-appearences/018.webp" type="image/webp"><img src="assets/img/tnt-appearences/018.jpg" width="900" height="675" alt="TNT Sports coverage" loading="lazy"></picture>
+          <picture><source srcset="assets/img/tnt-appearences/006.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/006.jpg" width="1600" height="1066" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/008.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/008.jpg" width="1600" height="1066" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/010.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/010.jpg" width="1600" height="1066" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/012.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/012.jpg" width="900" height="675" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/014.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/014.jpg" width="1536" height="2048" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/016.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/016.jpg" width="1600" height="1200" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/017.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/017.jpg" width="1600" height="737" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/019.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/019.jpg" width="1600" height="1200" alt="TNT Sports coverage" loading="lazy"></picture>
+          <figcaption><span>TNT Sports</span> Coverage</figcaption>
+        </figure>
+        <figure class="gallery-tile" data-category="tnt-sports" data-reveal>
+          <picture><source srcset="assets/img/tnt-appearences/021.webp" type="image/webp"><img decoding="async" src="assets/img/tnt-appearences/021.jpg" width="1530" height="1074" alt="TNT Sports coverage" loading="lazy"></picture>
           <figcaption><span>TNT Sports</span> Coverage</figcaption>
         </figure>
       </div>
@@ -454,7 +654,7 @@
     <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
       <button class="lightbox-close" id="lightboxClose" aria-label="Close photo viewer">&times;</button>
       <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#10094;</button>
-      <img class="lightbox-img" id="lightboxImg" src="" alt="">
+      <img decoding="async" class="lightbox-img" id="lightboxImg" src="" alt="">
       <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">&#10095;</button>
       <p class="lightbox-caption" id="lightboxCaption"></p>
     </div>
@@ -549,6 +749,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="assets/js/main.js?v=2"></script>
+<script src="assets/js/main.js?v=3"></script>
 </body>
 </html>
